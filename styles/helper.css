@@ -1,0 +1,16 @@
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.height-150 {
+    height: 150px;
+}
+
+.width-85-p {
+    width: 85%;
+}

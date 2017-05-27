@@ -8,22 +8,19 @@
     width: auto;
 }
 
-.center {
-    text-align: center;
+#content {
+    max-width: 80%;
     margin: auto;
 }
 
-.clickable {
+.image {
     cursor: pointer;
-}
-
-.display-inline {
-    display: inline;
 }
 
 .navbar {
     background-color: white;
-    height: 150px;
+    height: 120px;
+    padding-top: 30px;
     overflow: hidden;
     position: fixed;
     top: 0;
