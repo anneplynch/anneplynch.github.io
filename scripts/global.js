@@ -8,7 +8,17 @@ window.onload = function () {
     }
 }
 
-function navigateToVideo(hash, path) {
+window.onhashchange = function() {
+    var hash = window.location.hash;
+    if (hash) {
+        hash = hash.substr(1);
+        include(hash);
+    } else {
+        include();
+    }
+}
+
+function navigate(hash, path) {
     window.location.hash = hash;
     document.getElementById('content').setAttribute('data-include', path);
     include(hash);
