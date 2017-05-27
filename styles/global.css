@@ -1,0 +1,42 @@
+.banner {
+    display: block;
+    margin: 1px;
+}
+
+.card {
+    display: inline-block;
+    width: auto;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: white;
+    height: 150px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* For menu fonts, anne wanted gravity from http://www.dafont.com/search.php?q=gravity */
+}
+
+.title {
+    font-family:  "Brush Script MT", cursive;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+#demo {
+
+}
+
+#demoGrey {
+
+}

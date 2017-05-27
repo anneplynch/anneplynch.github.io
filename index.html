@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div>Hello World!</div>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="styles/global.css">
+        <link rel="stylesheet" type="text/css" href="styles/flex.css">
+        <title></title>
+    </head>
+    <body>
+        <div class="navbar center">
+            <div class="center clickable title" onclick="window.location.href='index.html'">Anne Lynch</div>
+            <div class="menu-flex layout-row">
+                <div class="menu-item-flex" onclick="navigateToVideo('demo-reel', 'views/demo-reel.html')">Demo Reel</div>
+                <div class="menu-item-flex" onclick="navigateToVideo('3D', 'views/3D.html')">3D</div>
+                <div class="menu-item-flex" onclick="navigateToVideo('2D', 'views/2D.html')">2D</div>
+                <div class="menu-item-flex" onclick="navigateToVideo('video', 'views/video.html')">Video</div>
+                <div class="menu-item-flex" onclick="navigateToVideo('about', 'views/about.html')">About</div>
+            </div>
+        </div>
+        <div style="height: 150px;"></div>
+        <div id="content" data-include="views/navigation.html"></div>
+    </body>
+    <script src="scripts/global.js"></script>
 </html>

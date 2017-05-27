@@ -1,0 +1,38 @@
+@media(min-width:480px) {
+    .flex {
+        margin: 10px;
+        width: 100%;
+    }
+}
+
+@media(min-width:767px) {
+    .flex {
+        margin: 10px;
+        width: 45%;
+    }
+}
+
+@media(min-width: 1200px) {
+    .flex {
+        margin: 10px;
+        width: 30%;
+    }
+}
+
+.menu-flex {
+    margin: auto;
+    text-align: center;
+}
+
+.menu-item-flex {
+    color: gray;
+    display: inline;
+    margin: 20px;
+}
+
+.menu-item-flex:hover {
+    color: black;
+    cursor: pointer;
+    display: inline;
+    margin: 20px;
+}
